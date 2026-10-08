@@ -359,7 +359,7 @@
       const cards = Array.from(wrap.children);
       cards.forEach((c, i) => {
         if (i === cards.length - 1) return;
-        G.to(c, { scale: 0.9, filter: 'brightness(0.72)', ease: 'none', scrollTrigger: { trigger: cards[i + 1], start: 'top bottom', end: 'top 30%', scrub: true } });
+        G.to(c, { scale: 0.92, filter: 'brightness(0.8)', ease: 'none', scrollTrigger: { trigger: cards[i + 1], start: 'top 75%', end: 'top 25%', scrub: true } });
       });
     });
     // section background/ink switch: active section paints the page, default otherwise
